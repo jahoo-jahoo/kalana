@@ -53,7 +53,7 @@ def upda():
   if u == '1':
     print("runing...")
   elif u == '2':
-    os.system('update.py')
+    os.system('python update.py')
     exit()
   else :
     upda()
