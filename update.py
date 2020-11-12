@@ -3,8 +3,10 @@ import os
 
 print("waiting \nRemove your old version")
 os.system('rm -rf jahoo.py')
+os.system('cd ..')
+os.system('ls')
 aa=input("Enter your update link : ")
-os.system('git clone'+aa)
+os.system(aa)
 print("wait.....\nupdate...")
 os.system('clear')
 print("sucess")
